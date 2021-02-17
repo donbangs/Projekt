@@ -1,0 +1,63 @@
+﻿<Window x:Class="Projekt.HistoriaSpozycia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        xmlns:DVC="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=DotNetProjects.DataVisualization.Toolkit"
+        xmlns:forms1="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+        mc:Ignorable="d"
+        Title="HistoriaSpozycia" Height="600" Width="600" Style="{DynamicResource Win}">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ZródłoStyli.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition>
+            </ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="79*">
+            </RowDefinition>
+
+            <RowDefinition Height="68*">
+            </RowDefinition>
+
+            <RowDefinition Height="73*">
+            </RowDefinition>
+
+
+        </Grid.RowDefinitions>
+        <Button Content="Powrót" Grid.Row="2" Click="Button_Click" Margin="0,48.333,286,1.333"/>
+        <Button Content="Wyczyść Historie" Grid.Row="2" Margin="306,48.333,0,0.333"/>
+        <ListBox x:Name="Historia" Grid.RowSpan="3" Margin="0,0,0,145.333">
+            <!--<ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <MultiBinding StringFormat="{}{0} {1} {2}">
+                                <Binding Path="dzien"/>
+                                <Binding Path="nazwa"/>
+                                <Binding Path="kcal"/>
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>-->
+        </ListBox>
+
+
+        <!--<DVC:Chart Name="Wykres" Background="YellowGreen" Foreground="DarkBlue"    
+                   Title="Area Chart" LegendTitle="Month Rating" Margin="0.333,0,0.333,-0.333" Grid.RowSpan="3" Grid.Column="1" />-->
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,141 @@
+body{
+	background-image:url(images/tlo.jpg);
+    color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #e5e2db;
+	background-repeat: repeat-x;
+	display: center;
+}
+
+*{margin: 0px;padding: 0px;}
+
+.clear{clear:both;}
+
+a.link:hover {
+background-color: red;
+}
+#pojemnik {
+	margin: 0px auto;
+	text-align: left;
+	width: 780px;
+}
+
+#content {
+	background-color: #000000;
+	width:774px;
+	display:block;
+}
+#content h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	margin: 0px 23px 6px 28px;
+	padding: 20px 0px 0px 0px;
+	border-bottom: 1px solid #bbb6a0;
+}
+#left {
+	background-image:url(images/tlo2.jpg);
+	border: 1px solid #c2bdaa;
+	width:550px;
+	margin: 0px 0px 10px 28px;
+	padding: 0px 0px 15px 0px;
+	float:left;
+	display:inline;
+}
+.text{
+	float:left;
+	width:530px;
+}
+#left h2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: underline;
+	margin: 20px 0px 10px 23px;
+}
+#left p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:lighter;
+	color: #FFFFFF;
+	margin: 6px 0px 0px 23px;
+}
+#left a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;color: #FFFFFF;
+}
+#left a:hover{
+	color:#000000;
+}
+#right {
+	float:right;
+	border-right: 10px solid #0D3E9E;
+	margin: 0px 23px 10px 0px;
+	padding: 0px 0px 6px 0px;
+	display:inline;
+	border: 1px solid #c2bdaa;
+}
+#right h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color:#C0C0C0;
+	width:156px;
+	text-align:center;
+	padding: 3px 0px 3px 0px;
+}
+#right p{
+	padding: 10px 9px 0px 9px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+#right a{
+	padding: 15px 9px 5px 9px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight:bolder;
+	display:block;
+}
+#right a:hover{
+	color:#000000;
+}
+#right span a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #605c4c;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color:#C0C0C0;
+	width:138px;
+	text-align:left;
+	padding: 3px 0px 3px 5px;
+	margin: 15px 6px 0px 6px;
+}
+
+/********************** stopka ***************************/
+#footer, #footer a {
+	background-color: #C0C0C0;
+	width: 774px;
+	height:22px;
+	text-align:center;
+	padding: 10px 0px 0px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #4d4b4a;
+}
+#footer a:hover{
+	color:#000000;
+}
